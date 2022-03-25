@@ -7,6 +7,9 @@ import { LoginComponent } from './login/login.component';
 import { FrontpageComponent } from './frontpage/frontpage.component';
 import { DraftpoolComponent } from './draftpool/draftpool.component';
 import { UserteamComponent } from './userteam/userteam.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { UserprofileComponent } from './userprofile/userprofile.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { UserteamComponent } from './userteam/userteam.component';
     LoginComponent,
     FrontpageComponent,
     DraftpoolComponent,
-    UserteamComponent
+    UserteamComponent,
+    NavbarComponent,
+    RegistrationComponent,
+    UserprofileComponent
   ],
   imports: [
     BrowserModule,
