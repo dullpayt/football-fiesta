@@ -20,6 +20,15 @@
 		<property name="hibernate.hbm2ddl.auto">create</property>
 		
 		<!-- Map classes in models package -->
-		
+		<mapping class="com.payton.models.League"/>
+		<mapping class="com.payton.models.Match"/>
+		<mapping class="com.payton.models.Players"/>
+		<mapping class="com.payton.models.PlayerStats"/>
+		<mapping class="com.payton.models.Team"/>
+		<mapping class="com.payton.models.User"/>
+		<mapping class="com.payton.models.UserTeam"/>
+		<mapping class="com.payton.models.UserTeamPlayer"/>
+	
+	
 	</session-factory>
 </hibernate-configuration>
